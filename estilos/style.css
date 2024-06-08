@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.texto-menor{
+    font-size: 13px;
+}
+
+.divs-facilidades{
+    width: 325px;
+}
+
+.azul-claro{
+    color: #59A8D9;
+}
+
+.botao-lilas{
+    background-color: #9353FF;
+    color: white;
+}
+
+.titulo{
+    color: var(--Cor-escura, #023859);
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.234);
+    font-family: "Inter", sans-serif;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.titulo-2{
+    color: var(--Cor-escura, #023859);
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.208);
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.paragrafo{
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem; /* 188.235% */
+}
+
+@media (max-width: 750px){
+    .titulo{
+        font-size: 1.8rem;
+    }
+    .paragrafo{
+        font-size: 0.8rem;
+        line-height: 1.5rem; /* 188.235% */
+    }
+}
+
+@media (max-width: 650px){
+    .titulo{
+        font-size: 1.5rem;
+    }
+    .paragrafo{
+        font-size: 0.7rem;
+        line-height: 1.5rem; /* 188.235% */
+    }
+
+    #form{
+        padding: 10px !important;
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 550px){
+    .titulo{
+        font-size: 1.2rem;
+    }
+
+    .titulo-3{
+        font-size: 1.5rem;
+    }
+
+    .titulo-2{
+        font-size: 1.2rem;
+    }
+
+    .paragrafo{
+        font-size: 0.6rem;
+        line-height: 1.2rem; /* 188.235% */
+    }
+
+    #form{
+        padding: 10px !important;
+        width: 90%;
+        margin: auto;
+    }
+
+    footer p{
+        font-size: 0.6rem;
+    }
+
+    #p{
+        font-size: 0.85rem !important;
+    }
+
+    #titulo_card{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 450px){
+    #a_logo{
+        width: 60% !important;
+    }
+
+    .titulo-3{
+        font-size: 1.2rem;
+    }
+    .titulo{
+        font-size: 1rem;
+    }
+    .paragrafo{
+        font-size: 0.5rem;
+        line-height: 1rem; /* 188.235% */
+    }
+    #p{
+        font-size: 0.65rem !important;
+    }
+
+    #titulo_card{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 350px){
+    #a_logo{
+        width: 60% !important;
+    }
+    .titulo{
+        font-size: 0.8rem;
+    }
+    .paragrafo{
+        font-size: 0.5rem;
+        line-height: 1rem; /* 188.235% */
+    }
+    .azul-claro{
+        font-size: 0.8rem !important;
+    }
+
+}
+
+.fundo{
+    background-color: #023859;
+}
+
+.borda{
+    border: 1px solid #023859;
+}
+
+.botaozin{
+    background-color: #023859 !important;
+    color: white !important;
+    border: none;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.182);
+}
